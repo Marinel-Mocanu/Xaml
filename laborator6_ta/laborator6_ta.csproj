@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="thumb_m_gallery_c10ab73c.webp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="thumb_m_gallery_c10ab73c.webp" />
+  </ItemGroup>
+
+</Project>
